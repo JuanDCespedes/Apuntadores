@@ -24,7 +24,7 @@ int main() {
     
     Alumno* ptrEstudiante = &estudiante[x]; // Apuntador a la estructura
 
-    std::cout << "Datos del estudiante:" << std::endl;
+    std::cout << "Datos del estudiante " << x+1 << std::endl;
     std::cout << "Nombre: " << ptrEstudiante->nombre << std::endl;
     cout << "Codigo: "<< ptrEstudiante-> code << endl;
     std::cout << "Notas: ";
